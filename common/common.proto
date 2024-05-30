@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package common;
 
-option go_package = "./common";
+option go_package = "github.com/akalpaki/grpc_repo_experiment/common";
 
 message Example {
     string field_a = 1;

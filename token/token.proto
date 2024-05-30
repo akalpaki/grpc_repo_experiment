@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package token;
 
-option go_package = "/token";
+option go_package = "github.com/akalpaki/grpc_repo_experiment/token";
 
 import "common/common.proto";
 
