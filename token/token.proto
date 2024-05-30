@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package token;
+
+option go_package = "/token";
+
+import "common/common.proto";
+
+message Token {
+    common.Example example = 1;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package common;
+
+option go_package = "./common";
+
+message Example {
+    string field_a = 1;
+    string field_b = 2;
+}
